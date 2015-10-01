@@ -3,43 +3,28 @@
     <head>
         <title>Laravel</title>
 
-        <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script src="semantic/semantic.min.js"></script>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
+       
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
+        <div id="header-bg" class="ui vertical segment">
+            <div class="ui container">
+                <div class="ui inverted large secondary menu">
+                    <div class="header item">
+                        apstudio
+                    </div>
+                    <div class="ui right secondary menu">
+                        <a class="item">Home</a>
+                        <a class="item">Mission</a>
+                        <a class="item">Services</a>
+                        <a class="item">About Us</a>
+                        <a class="item">Contact Us</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        <div>
     </body>
 </html>
