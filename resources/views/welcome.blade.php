@@ -49,51 +49,57 @@
                      against ever-present threats.
                 </p>
             </div>
+
             <div class="ui hidden divider"></div>
-            <div class="ui four column grid container">
-        
-                <div class="column">
-                    <h1 class="ui icon center aligned header">
-                        <i class="massive idea icon"></i>
-                        <div class="content">Smarter</div>
-                    </h1>
-                    <p align="center">Our Company's security assessments leverage our extensive knowledge 
-                        of current security vulnerabilities, penetration
-                    </p>
-                </div>
 
-                <div class="column">
-                    <h1 class="ui icon center aligned header">
-                        <i class="massive wait icon"></i>
-                        <div class="content">Faster</div>
-                    </h1>
-                    <p align="center">Our Company's security assessments leverage our extensive knowledge 
-                        of current security vulnerabilities, penetration
-                    </p>
-                </div>
+            <div class="ui container">
+                <div class="ui stackable four column grid">
 
-                <div class="column">
-                    <h1 class="ui icon center aligned header">
-                        <i class="massive linkify icon"></i>
-                        <div class="content">Stronger</div>
-                    </h1>
-                    <p align="center">Our Company's security assessments leverage our extensive knowledge 
-                        of current security vulnerabilities, penetration
-                    </p>
-                </div>
+                    <div class="column">
+                        <h1 class="ui icon center aligned header">
+                            <i class="massive idea icon"></i>
+                            <div class="content">Smarter</div>
+                        </h1>
+                        <p align="center">Our Company's security assessments leverage our extensive knowledge 
+                            of current security vulnerabilities, penetration
+                        </p>
+                    </div>
 
-                <div class="column">
-                    <h1 class="ui icon center aligned header">
-                        <i class="massive thumbs up icon"></i>
-                        <div class="content">Better</div>
-                    </h1>
-                    <p align="center">Our Company's security assessments leverage our extensive knowledge 
-                        of current security vulnerabilities, penetration
-                    </p>
-                </div>
+                    <div class="column">
+                        <h1 class="ui icon center aligned header">
+                            <i class="massive wait icon"></i>
+                            <div class="content">Faster</div>
+                        </h1>
+                        <p align="center">Our Company's security assessments leverage our extensive knowledge 
+                            of current security vulnerabilities, penetration
+                        </p>
+                    </div>
 
-            </div>
-                
+                    <div class="column">
+                        <h1 class="ui icon center aligned header">
+                            <i class="massive linkify icon"></i>
+                            <div class="content">Stronger</div>
+                        </h1>
+                        <p align="center">Our Company's security assessments leverage our extensive knowledge 
+                            of current security vulnerabilities, penetration
+                        </p>
+                    </div>
+
+                    <div class="column">
+                        <h1 class="ui icon center aligned header">
+                            <i class="massive thumbs up icon"></i>
+                            <div class="content">Better</div>
+                        </h1>
+                        <p align="center">Our Company's security assessments leverage our extensive knowledge 
+                            of current security vulnerabilities, penetration
+                        </p>
+                    </div>
+
+                </div>
+            </div> 
+
         </div>
+
+
     </body>
 </html>
