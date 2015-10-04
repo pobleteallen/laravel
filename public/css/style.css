@@ -1,6 +1,14 @@
-body
+h1{font-size: 4rem !important;}
+h2{font-size: 3rem !important;}
+h3{font-size: 2rem !important;}
+h4{font-size: 1.5rem !important;}
+h5{font-size: 1rem !important;}
+
+.borderless
 {
-	font-size: 100%;
+	border: none !important;
+	box-shadow: none !important;
+	outline: none !important;
 }
 
 #header-bg
@@ -19,15 +27,23 @@ body
 	font-size: 2.6em;
 }
 
-#aboutus
+#services
 {
-	padding: 5em 0;
-	height: 100%;
+	padding: 6rem 0;
+	min-height: 100%;
 }
-	#aboutus .hidden.divider
+	#services .stackable.grid
 	{
-		margin: 4rem 0;
+		margin: 6rem 0;
 	}
+
+#aboutus { background: url('../img/building1.jpg') no-repeat center center; }
+#aboutus #whoweare, #aboutus #testimonial { padding-top: 6rem ; padding-bottom: 6rem ; }
+
+
+
+
+
 
 
 
@@ -36,21 +52,21 @@ body
 
 
 @media only screen and (min-width: 240px){
-	body
+	h1,h2,h3,h4,h5,h6
 	{
-		font-size: 60%;
+		font-size: 60%;*/
 	}
 }
 
 @media only screen and (min-width: 360px){
-	body
+	h1,h2,h3,h4,h5,h6
 	{
 		font-size: 80%;
 	}
 }
 
 @media only screen and (min-width: 480px){
-	body
+	h1,h2,h3,h4,h5,h6
 	{
 		font-size: 90%;
 	}
