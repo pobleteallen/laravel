@@ -4,6 +4,8 @@ h3{font-size: 2rem !important;}
 h4{font-size: 1.5rem !important;}
 h5{font-size: 1rem !important;}
 
+html { background: #f1f1f1; }
+
 .borderless
 {
 	border: none !important;
@@ -27,18 +29,19 @@ h5{font-size: 1rem !important;}
 	font-size: 2.6em;
 }
 
-#services
+#services, #whoweare, #testimonial
 {
-	padding: 6rem 0;
+	padding: 2rem 0;
 	min-height: 100%;
 }
 	#services .stackable.grid
 	{
-		margin: 6rem 0;
+		padding: 6rem 0 !important;
 	}
 
-#aboutus { background: url('../img/building1.jpg') no-repeat center center; }
-#aboutus #whoweare, #aboutus #testimonial { padding-top: 6rem ; padding-bottom: 6rem ; }
+
+#testimonial { background: url('../img/building1.jpg') no-repeat center center; }
+
 
 
 

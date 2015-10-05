@@ -41,41 +41,79 @@
         </div>
 
         <div id="services" class="ui vertical segment">
-            <div class="ui container">
-                <h1 class="ui center aligned header">What we offer</h1>
-                <div class="ui stackable three column grid">
-                    <div class="column">
-                        <h3 class="ui icon center aligned header">
-                            <i class="massive wait icon"></i>
-                            <div class="content">Home Security</div>
-                        </h3>
-                        <p align="center">Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
-                         eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio. 
-                         Lacus ut eniascet ingerto aliiqt sit amet eism odictor ipsum commete.
-                        </p>
-                    </div>
 
-                    <div class="column">
-                        <h3 class="ui icon center aligned header">
-                            <i class="massive linkify icon"></i>
-                            <div class="content">Business Security</div>
-                        </h3>
-                        <p align="center">Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
-                         eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio. 
-                         Lacus ut eniascet ingerto aliiqt sit amet eism odictor ipsum commete.
-                        </p>
+            <div class="ui vertical segment">
+                <div class="ui container">
+                    <div class="ui stackable grid">
+                        <div class="six wide column">
+                             <h3 class="ui icon center aligned header">
+                                <i class="massive wait icon"></i>
+                                <div class="content">Home Security</div>
+                                <div class="sub header">Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
+                                 eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme.
+                                </div>
+                            </h3>
+                        </div>
+                        <div class="ten wide column">
+                            
+                        </div>
                     </div>
+                </div>
+            </div>
 
-                    <div class="column">
-                        <h3 class="ui icon center aligned header">
-                            <i class="massive thumbs up icon"></i>
-                            <div class="content">Building Security</div>
-                        </h3>
-                        <p align="center">Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
-                         eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio. 
-                         Lacus ut eniascet ingerto aliiqt sit amet eism odictor ipsum commete.
-                        </p>
+
+            <div class="ui inverted black vertical segment">
+                <div class="ui container">
+                    <div class="ui mobile reversed stackable grid">
+                        <div class="ten wide column">
+                            <div class="sub header">Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
+                             eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio. 
+                             Lacus ut eniascet ingerto aliiqt sit amet eism odictor ipsum commete.
+                            </div>
+                        </div>
+                        <div class="six wide column">
+                            <h3 class="ui inverted icon center aligned header">
+                                <i class="massive linkify icon"></i>
+                                <div class="content">Business Security</div>
+                            </h3>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="ui vertical segment">
+                <div class="ui container">
+                    <div class="ui stackable grid">
+                        <div class="six wide column">
+                             <h3 class="ui icon center aligned header">
+                                <i class="massive thumbs up icon"></i>
+                                <div class="content">Building Security</div>
+                            </h3>
+                        </div>
+                        <div class="ten wide column">
+                            <h4>Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
+                             eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio. 
+                             Lacus ut eniascet ingerto aliiqt sit amet eism odictor ipsum commete.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="testimonial" class="ui inverted vertical segment">
+                <div class="ui text container">
+                    <h3 class="ui inverted icon center aligned header">   
+                        <img class="ui small circular image" src="img/testi-pic.jpg">
+                        <div class="content">
+                            Allen Poblete
+                            <div class="sub header">Mall Director</div>
+                        </div>
+                    </h3>
+                    <p style="color: white">
+                        <i class="inverted quote left icon"></i>1Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
+                         eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio. 
+                         Lacus ut eniascet ingerto aliiqt sit amet eism odictor ipsum commete.<i class="inverted quote right icon"></i>
+                    </p>
                 </div>
             </div>
         </div>
@@ -96,22 +134,6 @@
                             </p>
                     </div>
 
-                    <div id="testimonial" class="eleven wide column">
-                        <div class="ui text container">
-                            <h3 class="ui inverted icon center aligned header">   
-                                <img class="ui small circular image" src="img/testi-pic.jpg">
-                                <div class="content">
-                                    Allen Poblete
-                                    <div class="sub header">Mall Director</div>
-                                </div>
-                            </h3>
-                            <p style="color: white">
-                                <i class="inverted quote left icon"></i>1Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
-                                 eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio. 
-                                 Lacus ut eniascet ingerto aliiqt sit amet eism odictor ipsum commete.<i class="inverted quote right icon"></i>
-                            </p>
-                        </div>
-                    </div>
 
                 </div>
             </div>
