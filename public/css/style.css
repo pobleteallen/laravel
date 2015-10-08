@@ -1,14 +1,17 @@
 /*personal reset*/
+html { background: #f1f1f1; }
 
+body { overflow: hidden; }
 h1{font-size: 3rem !important;}
 h2{font-size: 2.5rem !important;}
 h3{font-size: 2rem !important;}
 h4{font-size: 1.5rem !important;}
 h5{font-size: 1rem !important;}
 
-html { background: #f1f1f1; }
 input,textarea { border-radius: 0 !important; }
 
+/*fixed menu*/
+#fixed-menu .item { display: none; }
 .borderless
 {
 	border: none !important;
@@ -23,22 +26,20 @@ input,textarea { border-radius: 0 !important; }
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	height: 100% !important;
+  	min-height: 100vh !important;
+  	position: relative !important;
 }
 
-.mobile.item { display: none !important; }
-
-	#logo { margin-top: 5rem;}
-	#header .ui.header { display: block;}
-	#header .ui.header span { position: relative; }
-	#header .ui.header span li { position: absolute; list-style: none; display: inline-block;}
+#logo { margin-top: 30vh;}
+#header .ui.header { display: block;}
+#header .ui.header span { position: relative; }
+#header .ui.header span li { position: absolute; list-style: none; display: inline-block;}
 
 
 
 #feedbacks
 {
 	padding: 5rem 0;
-	height: 100%;
 }
 
 #services, #services .stackable.grid .column, #aboutus, #contactus
@@ -49,7 +50,7 @@ input,textarea { border-radius: 0 !important; }
 
 
 #feedbacks, #contactus { background: url('../img/building1.jpg') no-repeat center center fixed; }
-	.testimonial-holder { position: relative; }
+	.testimonial-holder { position: relative; min-height: 40vh; }
 	#testimonial { padding-top: 5rem ; position: absolute;}
 
 
@@ -60,10 +61,10 @@ input,textarea { border-radius: 0 !important; }
 
 
 
-@media only screen and (max-width: 480px){
-	html { font-size: 65% !important; }
+@media only screen and (max-width: 700px){
 
-	#mainmenu .item { display: none;}
-	.mobile.item { display: inline-block !important; }
+#fixed-menu .mobile.item { display: inline-block !important; }
+#logo { margin-top: 10vh;}
+.testimonial-holder { min-height: 100vh; }
 
 }
