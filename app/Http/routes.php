@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function(){
+	return view('pages.index');
+});
+
+Route::get('login', function(){
+	$var1 = 'first variable';
+	$var2 = 'second variable';
+
+	return view('pages.login', $var1);
 });

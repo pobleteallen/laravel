@@ -1,37 +1,46 @@
+@section('header')
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Standard Meta -->
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-
         <title>Laravel</title>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <!-- Optimized mobile viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">        
+
+        <!-- Image Links -->
+        <link rel="shortcut icon" href="icons/favicon.png">
+        <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png">
+
+        <!-- CSS Links -->
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css"/>
+    
+        <!-- Jquery Link -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="js/script.js"></script>
         <script src="semantic/semantic.min.js"></script>
-        
-
-
-       
+          
     </head>
+@endsection
     <body>
         <div>
-            <!-- mobile menu -->
+            <!-- sidebar menu -->
             <div class="ui vertical very thin inverted sidebar menu">
                 <a href="#header" class="item">Home</a>
                 <a href="#services" class="item">Services</a>
                 <a href="#feedbacks" class="item">Feedbacks</a>
                 <a href="#aboutus" class="item">About us</a>
                 <a href="#contactus" class="item">Contact us</a>
+                <a class="item">Extra</a>
             </div>
 
             <!-- fixed menu -->
-            <div id="fixed-menu" class="ui inverted large secondary fixed menu"> 
+            <div id="fixed-menu" class="ui inverted large fixed menu"> 
                 <div class="ui container">
                     <a class="mobile item"><i class="circular inverted large sidebar icon"></i></a> 
                     <div class="item header"><img src="img/gap-logo.png"></div>
@@ -39,7 +48,8 @@
                     <a href="#services" class="item">Services</a>
                     <a href="#feedbacks" class="item">Feedbacks</a>
                     <a href="#aboutus" class="item">About us</a>
-                    <a href="#contactus" class="item">Contact us</a>  
+                    <a href="#contactus" class="item">Contact us</a>
+                    <a class="item">Extra</a>  
                 </div>
             </div>
 
@@ -141,14 +151,10 @@
             </div>
 
             <!-- ABOUT US -->
-            <div id="aboutus" class="ui vertical segment">
-                    
+            <div id="aboutus" class="ui vertical segment">         
                 <div class="ui text container">
                     <h2 class="ui horizontal divider">about us</h2>
                     <div class="ui hidden divider"></div>
-                    <h2 class="ui icon center aligned header">
-                        <i class="massive circular inverted blue users icon"></i>
-                    </h2>
                     <p align="center">Dolore cuml dia sed in lacus ut eniascet inger es sitet amet
                      eismod ictor ut ligulate ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio. 
                      Lacus ut eniascet ingerto aliiqt sit amet eism odictor ipsum commete.

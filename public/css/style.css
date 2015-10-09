@@ -1,5 +1,5 @@
 /*personal reset*/
-html { background: #f1f1f1; }
+
 
 body { overflow: hidden; }
 h1{font-size: 3rem !important;}
@@ -11,13 +11,8 @@ h5{font-size: 1rem !important;}
 input,textarea { border-radius: 0 !important; }
 
 /*fixed menu*/
-#fixed-menu .item { display: none; }
-.borderless
-{
-	border: none !important;
-	box-shadow: none !important;
-	outline: none !important;
-}
+#fixed-menu { display: none; }
+#fixed-menu .mobile.item { display: none; }
 
 #header
 {
@@ -27,33 +22,33 @@ input,textarea { border-radius: 0 !important; }
   	-o-background-size: cover;
   	background-size: cover;
   	min-height: 100vh !important;
-  	position: relative !important;
 }
 
-#logo { margin-top: 30vh;}
+#logo { margin-top: 25vh;}
 #header .ui.header { display: block;}
 #header .ui.header span { position: relative; }
 #header .ui.header span li { position: absolute; list-style: none; display: inline-block;}
 
 
-
-#feedbacks
+#services, 
+#services .stackable.grid .column, 
+#feedbacks, 
+#aboutus, 
+#contactus
 {
-	padding: 5rem 0;
-}
-
-#services, #services .stackable.grid .column, #aboutus, #contactus
-{
-	padding-top: 5rem ;
-	padding-bottom: 6rem;
+	padding-top: 8rem ;
+	padding-bottom: 8rem ;
 }
 
 
 #feedbacks, #contactus { background: url('../img/building1.jpg') no-repeat center center fixed; }
-	.testimonial-holder { position: relative; min-height: 40vh; }
-	#testimonial { padding-top: 5rem ; position: absolute;}
+	.testimonial-holder { position: relative; min-height: 25rem; }
+	#testimonial { padding-top: 5rem ; position: absolute; border: none !important;}
 
-
+#aboutus p
+{
+	margin-top: 3rem;
+}
 
 
 
@@ -62,8 +57,18 @@ input,textarea { border-radius: 0 !important; }
 
 
 @media only screen and (max-width: 700px){
+	
+#services, 
+#services .stackable.grid .column, 
+#feedbacks, 
+#aboutus, 
+#contactus
+{
+	padding-top: 5rem ;
+	padding-bottom: 5rem ;
+}
 
-#fixed-menu .mobile.item { display: inline-block !important; }
+#fixed-menu .mobile.item { display: none; }
 #logo { margin-top: 10vh;}
 .testimonial-holder { min-height: 100vh; }
 
