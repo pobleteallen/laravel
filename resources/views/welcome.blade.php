@@ -36,7 +36,7 @@
                 <a href="#feedbacks" class="item">Feedbacks</a>
                 <a href="#aboutus" class="item">About us</a>
                 <a href="#contactus" class="item">Contact us</a>
-                <a class="item">Extra</a>
+                <a href="dashboard" class="item">Extra</a>
             </div>
 
             <!-- fixed menu -->

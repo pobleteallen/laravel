@@ -51,7 +51,8 @@ input,textarea { border-radius: 0 !important; }
 }
 
 
-
+/*dashboard style*/
+body.dashboard { background: #e1e1e1; }
 
 
 

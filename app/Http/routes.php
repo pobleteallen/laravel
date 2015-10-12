@@ -21,3 +21,7 @@ Route::get('login', function(){
 
 	return view('pages.login', $var1);
 });
+
+Route::get('dashboard', function(){
+	return view('pages.dashboard');
+});

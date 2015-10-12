@@ -11,9 +11,9 @@
 
         <!-- Image Links -->
         <link rel="shortcut icon" href="img/gap-logo.png">
-        <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+        <!-- <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png"> -->
 
         <!-- CSS Links -->
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -25,7 +25,5 @@
         <script src="semantic/semantic.min.js"></script>
           
     </head>
-    <body>
         @yield('content')
-    </body>
 </html>
