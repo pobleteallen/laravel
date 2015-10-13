@@ -25,3 +25,7 @@ Route::get('login', function(){
 Route::get('dashboard', function(){
 	return view('pages.dashboard');
 });
+
+Route::get('guards', function(){
+	return view('pages.guards');
+});

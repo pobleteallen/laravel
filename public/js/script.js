@@ -86,6 +86,10 @@ $(document).ready(function(){
 	$('#fixed-menu').on('click','.mobile.item',function(){
 		$('.ui.sidebar').sidebar({overlay: true, scrollLock: true}).sidebar('show');
 	});
+
+	
+
+	//dashboard scripts
 	
 	
 });
