@@ -50,9 +50,9 @@ input,textarea { border-radius: 0 !important; }
 
 
 /*dashboard style*/
-body.dashboard { background: #e1e1e1; }
-body.dashboard .content{ margin-left: 7rem;}
-body.dashboard .ui.segment{ border-radius: 0 !important; }
+body.admin { background: #e1e1e1; }
+body.admin .content{ margin-left: 7rem;}
+body.admin .ui.segment, table{ border-radius: 0 !important; }
 
 
 

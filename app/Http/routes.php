@@ -23,9 +23,16 @@ Route::get('login', function(){
 });
 
 Route::get('dashboard', function(){
-	return view('pages.dashboard');
+	$page = 'dashboard';
+	return view('pages.dashboard')->with('page',$page);
 });
 
 Route::get('guards', function(){
-	return view('pages.guards');
+	$page = 'guards';
+	return view('pages.guards')->with('page',$page);
+});
+
+Route::get('forms', function(){
+	$page="forms";
+	return view('pages.forms')->with('page',$page);
 });

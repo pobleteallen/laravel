@@ -3,7 +3,7 @@
 @section('content')
 
 
-	<div class="content dashboard">
+	<div class="content">
 		<div class="ui segment">
 			<div class="ui large secondary menu">
 				<div class="item">

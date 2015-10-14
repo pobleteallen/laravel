@@ -90,6 +90,13 @@ $(document).ready(function(){
 	
 
 	//dashboard scripts
-	
+
+	//dashboard active menus
+	var page = "#dashboard-mainmenu #"+$('body').attr('id');
+	$(page).addClass('active');
+	//guards information when hover in image remove/edit option will appear
+	$('.ui.card .image').dimmer({
+		on: 'hover'
+	});
 	
 });

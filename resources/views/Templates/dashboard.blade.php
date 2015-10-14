@@ -25,13 +25,13 @@
         <script src="semantic/semantic.min.js"></script>
           
     </head>
-    <body class="dashboard">
+    <body id="{{$page}}" class="admin">
         <div id="dashboard-mainmenu" class="ui icon labeled inverted visible vertical sidebar menu">
-            <a href="dashboard" class="active item"><i class="icon home"></i>Dashboard</a>
-            <a href="guards" class="item"><i class="icon user"></i>Guards</a>
-            <a class="item"><i class="icon file outline"></i>Forms</a>
-            <a href="../public" class="item"><i class="icon power"></i>Exit</a>
-        </div>
+        <a id="dashboard" href="dashboard" class="item"><i class="icon home"></i>Dashboard</a>
+        <a id="guards" href="guards" class="item"><i class="icon user"></i>Guards</a>
+        <a id="forms" href="forms" class="item"><i class="icon file outline"></i>Forms</a>
+        <a href="../public" class="item"><i class="icon power"></i>Exit</a>
+    </div>
         @yield('content')
     </body>
 </html>
