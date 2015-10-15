@@ -4,25 +4,6 @@
 
 
 	<div class="content">
-		<div class="ui segment">
-			<div class="ui large secondary menu">
-				<div class="item">
-					<div class="ui small breadcrumb">
-						<div class="section"><i class="home icon"></i>Dashboard</div>
-					</div>
-				</div>
-				<div class="ui right secondary menu">
-					<div class="item">
-						<div class="ui action input">
-							<input type="text" placeholder="Search...">
-							<button class="ui icon button">
-								<i class="search icon"></i>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<div class="ui stackable two column padded grid">
 			<div class="column">

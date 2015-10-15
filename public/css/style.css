@@ -7,8 +7,9 @@ h4{font-size: 1.5rem !important;}
 h5{font-size: 1rem !important;}
 
 input,textarea { border-radius: 0 !important; }
-/*.vertical.segment { background: #fff !important; }*/
-/*fixed menu*/
+
+
+/*fixed menu webpage*/
 #fixed-menu { display: none; }
 #fixed-menu .mobile.item { display: none; }
 
@@ -51,9 +52,10 @@ input,textarea { border-radius: 0 !important; }
 
 /*dashboard style*/
 body.admin { background: #e1e1e1; }
-body.admin .content{ margin-left: 7rem;}
+body.admin .content { margin-left: 15rem; }
 body.admin .ui.segment, table{ border-radius: 0 !important; }
 
+#dashboard-mainmenu { border-radius: 0;}
 
 
 

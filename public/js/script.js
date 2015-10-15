@@ -44,6 +44,10 @@ $(document).ready(function(){
 			$('#fixed-menu').addClass('secondary');
 			$('#fixed-menu .item:gt(0)').css('display','none');
 			$('#fixed-menu .mobile.item').css('display','inline-block');
+
+			//for dashboard whenever it trigger mobile viewport it will hide the sidebar
+			// $('.admin .content').css('margin-left','0');
+			// $('.admin .ui.sidebar').sidebar('toggle'); 
 		}
 	});
 
@@ -95,7 +99,7 @@ $(document).ready(function(){
 	var page = "#dashboard-mainmenu #"+$('body').attr('id');
 	$(page).addClass('active');
 	//guards information when hover in image remove/edit option will appear
-	$('.ui.card .image').dimmer({
+	$('.ui.special.cards .image').dimmer({
 		on: 'hover'
 	});
 	

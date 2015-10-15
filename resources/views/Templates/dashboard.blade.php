@@ -26,12 +26,40 @@
           
     </head>
     <body id="{{$page}}" class="admin">
-        <div id="dashboard-mainmenu" class="ui icon labeled inverted visible vertical sidebar menu">
-        <a id="dashboard" href="dashboard" class="item"><i class="icon home"></i>Dashboard</a>
-        <a id="guards" href="guards" class="item"><i class="icon user"></i>Guards</a>
-        <a id="forms" href="forms" class="item"><i class="icon file outline"></i>Forms</a>
-        <a href="../public" class="item"><i class="icon power"></i>Exit</a>
-    </div>
+        <!-- dashboard main manu -->
+        <div id="dashboard-mainmenu" class="ui vertical visible thin sidebar menu" style="background: #f1f1f1;">
+            <a id="dashboard" href="dashboard" class="item">
+                <div class="ui column grid">
+                    <div class="three wide column">
+                        <i class="home icon"></i>
+                    </div>
+                    <div class="column">
+                        Dashboard
+                    </div>
+                </div>
+            </a>
+            <a id="guards" href="guards" class="item">
+                <div class="ui column grid">
+                    <div class="three wide column">
+                        <i class="user icon"></i>
+                    </div>
+                    <div class="column">
+                        Guard
+                    </div>
+                </div>
+            </a>
+            <a id="forms" href="forms" class="item">
+                <div class="ui column grid">
+                    <div class="three wide column">
+                        <i class="file outline icon"></i>
+                    </div>
+                    <div class="column">
+                        Forms
+                    </div>
+                </div>
+            </a>
+        </div>
+        
         @yield('content')
     </body>
 </html>
