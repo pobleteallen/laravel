@@ -98,9 +98,16 @@ $(document).ready(function(){
 	//dashboard active menus
 	var page = "#dashboard-mainmenu #"+$('body').attr('id');
 	$(page).addClass('active');
+
 	//guards information when hover in image remove/edit option will appear
 	$('.ui.special.cards .image').dimmer({
 		on: 'hover'
+	});
+
+	//add guard script
+	$('#guards').on('click','#add-guard-btn',function(){
+		$('.page.dimmer').dimmer('show');
+		$('#add-guard').show();
 	});
 	
 });

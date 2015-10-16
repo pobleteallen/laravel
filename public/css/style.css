@@ -55,6 +55,8 @@ body.admin { background: #e1e1e1; }
 body.admin .content { margin-left: 15rem; }
 body.admin .ui.segment, table{ border-radius: 0 !important; }
 
+#add-guard { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); }
+
 #dashboard-mainmenu { border-radius: 0;}
 
 
