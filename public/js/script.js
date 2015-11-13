@@ -104,6 +104,7 @@ $(document).ready(function(){
 		on: 'hover'
 	});
 
+
 	//add guard script
 	$('#guards').on('click','#add-guard-btn',function(){
 		$('.page.dimmer').dimmer('show');

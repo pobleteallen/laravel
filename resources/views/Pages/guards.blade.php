@@ -93,6 +93,7 @@
 	<div class="ui vertical segment">
 		<div class="ui special cards">
 
+			@foreach ($guards as $guard)
 			<div class="card">
 				<div class="blurring dimmable image">
 					<div class="ui dimmer">
@@ -113,60 +114,32 @@
 					<img src="img/testi-pic.jpg">
 				</div>
 				<div class="content">
-					<div class="header">Allen Poblete</div>
+					<div class="header">
+						{{ucfirst($guard->firstname)}} 
+						{{ucfirst(substr($guard->middlename, 0, 1))}}. 
+						{{ucfirst($guard->lastname)}}
+					</div>
 				</div>
 				<div class="extra content">
 					<div class="ui slide masked reveal">
 						<div class="visible content">
-							<p>SSS No:</p>
-							<p>Phil. Health No:</p>
-							<p>TIN No:</p>
-							<p>Pag-ibig No:</p>
-							<p>NBI ID No:</p>
-							<p>SBR Date Issued:</p>
-							
+							<p>SSS No: {{$guard->sss}}</p>
+							<p>Phil. Health No: {{$guard->philhealth}}</p>
+							<p>TIN No: {{$guard->tin}}</p>
+							<p>Pag-ibig No: {{$guard->pagibig}}</p>
 						</div>
 						<div class="hidden content">
-							<p>Address:</p>
-							<p>Contact No.:</p>
+							<p>Address: {{$guard->address}}</p>
+							<p>Contact No.: {{$guard->contactno}}</p>
 							<p>Date Accepted:</p>
-							<p>Availability:</p>
+							<p>Availability: {{$guard->status}}</p>
 						</div>
 					</div>
 				</div>
-			</div>	
+			</div>
+			@endforeach	
 
-			<div class="card">
-				<div class="blurring dimmable image">
-					<div class="ui dimmer">
-						<div style="margin-left: 0;" class="content">
-							<div class="center">
-								<div class="ui blue buttons">
-									<div class="ui button">
-										Remove
-									</div>
-									<div class="or"></div>
-									<div class="ui button">
-										Edit
-									</div>
-								</div>
-							</div>	
-						</div>
-					</div>
-					<img src="img/testi-pic.jpg">
-				</div>
-				<div class="content">
-					<div class="header">Allen Poblete</div>
-				</div>
-				<div class="extra content">
-					<p>SSS No:</p>
-					<p>Phil. Health No:</p>
-					<p>TIN No:</p>
-					<p>Pag-ibig No:</p>
-					<p>NBI ID No:</p>
-					<p>SBR Date Issued:</p>
-				</div>
-			</div>	
+			
 
 		</div>
 	</div>

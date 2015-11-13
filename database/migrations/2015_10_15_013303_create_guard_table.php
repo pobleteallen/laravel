@@ -16,18 +16,16 @@ class CreateGuardTable extends Migration
             $table->increments('id');
             $table->string('firstname');
             $table->string('middlename');
-            $table->string('surname');
+            $table->string('lastname');
             $table->string('gender');
             $table->string('contact');
             $table->string('address');
-            $table->string('post');
             $table->string('status');
 
-            $table->float('sss');
-            $table->float('philhealth');
-            $table->float('tin');
-            $table->float('pagibig');
-            $table->float('nbi');
+            $table->string('sss');
+            $table->string('philhealth');
+            $table->string('tin');
+            $table->string('pagibig');
         });
     }
 

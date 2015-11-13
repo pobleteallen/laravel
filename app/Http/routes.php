@@ -28,8 +28,13 @@ Route::get('dashboard', function(){
 });
 
 Route::get('guards', function(){
-	$page = 'guards';
-	return view('pages.guards')->with('page',$page);
+	$guards = App\Guard::all();
+
+	$data = array(
+		'page' => 'guards',
+		'guards' => $guards
+	);
+	return view('pages.guards')->with($data);
 });
 
 Route::get('forms', function(){
